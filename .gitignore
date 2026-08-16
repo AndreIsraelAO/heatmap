@@ -1,0 +1,48 @@
+```
+# R-specific ignores
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.Rout
+*.Rcheck/
+*.so
+*.dll
+*.o
+*.a
+*.dylib
+*.tmp
+*~
+
+# Dependencies and packages
+library/
+lib/
+libs/
+inst/lib/
+src/*.so
+src/*.dll
+src/*.o
+src/*.a
+src/*.dylib
+
+# Build artifacts
+dist/
+build/
+*.log
+*.tmp
+
+# Environment and cache
+.cache/
+.Rprofile
+.dsap.history
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
